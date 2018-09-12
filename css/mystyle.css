@@ -22,3 +22,21 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer {
+  height: 150px;
+}
+
+.cu-contact-info {
+  margin-bottom: 0px !important; /* overwrite default CU style */
+}
+
+.cu-campus-info {
+  margin-bottom: 0px !important; /* overwrite default CU style */
+}
