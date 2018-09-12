@@ -97,7 +97,7 @@
       <div class="content row">
         <div class="main col-lg-9 col-md-9 col-sm-8 col-xs-12">
           <h1>Group Members</h1>
-          <h2>Principal Investigator</h2>
+          <h2 id="Principal">Principal Investigator</h2>
           <div class="row">
             <div class="col-sm-8">
               <h3 id="Dan">Daniel Dessau</h3>
@@ -118,7 +118,7 @@
               <img src="images/photos/dan.gif" alt="Daniel Dessau" />
             </div>
           </div>
-          <h2>Professional Research Associates</h2>
+          <h2 id="Associates">Professional Research Associates</h2>
           <div class="row">
             <div class="col-sm-8">
               <h3 id="Justin">Justin Griffith</h3>
@@ -158,7 +158,7 @@
               <img src="http://via.placeholder.com/300x400" alt="Cameron Dotts" />
             </div>
           </div>
-          <h2>Postdoctoral Researchers</h2>
+          <h2 id="Postdoc">Postdoctoral Researchers</h2>
           <!--
 						<div class="row">
 							<div class="col-sm-8">
@@ -215,7 +215,7 @@
               <img src="images/photos/haoxiang.png" alt="Haoxiang Li" />
             </div>
           </div>
-          <h2>Graduate Students</h2>
+          <h2 id="Graduate">Graduate Students</h2>
           <div class="row">
             <div class="col-sm-8">
               <h3 id="Kyle">Kyle Gordon</h3>
@@ -325,8 +325,8 @@
             <div class="col-sm-8">
               <h3 id="Peipei">Peipei Hao</h3>
               <p class="interests">Organic Materials Synthesis, ARPES on Strongly Correlated Materials</p>
-              <p>Peipei graduated from Southeast University(China) in 2017, with a bachelor's degree in Physics, and joined
-                Dan's group in the summer of 2018. She is currently working on an organic superconductors project(terphenyl),
+              <p>Peipei graduated from Southeast University (China) in 2017, with a bachelor's degree in physics, and joined
+                Dan's group in the summer of 2018. She is currently working on an organic superconductors project (terphenyl),
                 and is also interested in cuprate superconductors. Peipei's hobbies include hiking, linguistics, calligraphy,
                 and music. </p>
               <ul class="contactcard">
@@ -342,7 +342,7 @@
               <img src="images/photos/peipei.jpg" alt="Peipei Hao" />
             </div>
           </div>
-          <h2>Undergraduate Students</h2>
+          <h2 id="Undergraduate">Undergraduate Students</h2>
           <div class="row">
             <div class="col-sm-8">
               <h3 id="Fredy">Fredy Ramirez </h3>
@@ -362,7 +362,38 @@
             </div>
           </div>
 
-          <h2>Former Members</h2>
+          <h2 id="Former">Former Members</h2>
+          <div class="former-row">
+            <div class="former-column former-left">
+              <p>Stephen Parham</p>
+              <p>Thomas Nummy</p>
+              <p>Justin Waugh</p>
+              <p>Yue Cao</p>
+              <p>Nick Plumb</p>
+              <p>Ted Reber</p>
+              <p>Zhe (Joe) Sun</p>
+              <p>Jake Koralek</p>
+              <p>Fraser Douglas</p>
+              <p>Yi-De Chuang</p>
+              <p>Adam Gromko</p>
+              <p>Phil Villella</p>
+            </div>
+            <div class="former-column former-right">
+              <p>Intel</p>
+              <p>Somewhere</p>
+              <p>Somewhere</p>
+              <p>Argonne National Lab, Advanced Photon Source (APS)</p>
+              <p>Swiss Light Source (SLS)</p>
+              <p>University of Georgia</p>
+              <p>University of Science and Technology of China (USTC)</p>
+              <p>Stanford Linear Accelerator (SLAC)</p>
+              <p>Data Scientist at Deloitte</p>
+              <p>Lawrence Berkeley National Laboratory (LBNL)</p>
+              <p>Executive Director at IHS Markit</p>
+              <p>Co-Founder of LogRhythm</p>
+            </div>
+          </div>
+          <!--
           <ul>
             <li>Stephen Parham, Intel</li>
             <li>Thomas Nummy</li>
@@ -377,11 +408,12 @@
             <li>Adam Gromko, Executive Director, IHS Markit</li>
             <li>Phil Villella, Founder, LogRhythm</li>
           </ul>
+          -->
         </div>
         <div class="sidebar col-lg-3 col-md-3 col-sm-4 col-xs-12">
           <ul class="cu-nav-sub">
             <li role="presentation">
-              <a href="#">Principal Investigator</a>
+              <a href="#Principal">Principal Investigator</a>
               <ul>
                 <li role="presentation">
                   <a href="#Dan">Daniel Dessau</a>
@@ -389,7 +421,7 @@
               </ul>
             </li>
             <li role="presentation">
-              <a href="#">Professional Research Associates</a>
+              <a href="#Associates">Professional Research Associates</a>
               <ul>
                 <li role="presentation">
                   <a href="#Justin">Justin Griffith</a>
@@ -400,7 +432,7 @@
               </ul>
             </li>
             <li role="presentation">
-              <a href="#">Postdoctoral Researchers</a>
+              <a href="#Postdoc">Postdoctoral Researchers</a>
               <ul>
                 <li role="presentation">
                   <a href="#Xiaoqing">Xiaoqing Zhou</a>
@@ -411,7 +443,7 @@
               </ul>
             </li>
             <li role="presentation">
-              <a href="#">Graduate Students</a>
+              <a href="#Graduate">Graduate Students</a>
               <ul>
                 <li role="presentation">
                   <a href="#Kyle">Kyle Gordon</a>
@@ -434,13 +466,16 @@
               </ul>
             </li>
             <li role="presentation">
-              <a href="#">Undergraduate Students</a>
+              <a href="#Undergraduate">Undergraduate Students</a>
               <ul>
                 <li role="presentation">
                   <a href="#Fredy">Fredy Ramirez</a>
                 </li>
               </ul>
             </li>
+            <li role="presentation">
+                <a href="#Former">Former Members</a>
+              </li>
           </ul>
         </div>
       </div>
@@ -460,14 +495,17 @@
           <p>Lab Locations: Duane G229, G235, C228</p>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
-          <img src="images/photos/jila.png" alt="JILA Logo" />
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
-          <img src="images/photos/nist.png" alt="NIST Logo" />
-        </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
-          <img src="images/photos/nrel.png" alt="NREL Logo" />
-        </div>
+            <a href="https://jila.colorado.edu/" />
+            <img src="images/photos/jila.png" alt="JILA Logo" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
+            <a href="https://www.nist.gov/" />
+            <img src="images/photos/nist.png" alt="NIST Logo" />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
+            <a href="https://www.nrel.gov/" />
+            <img src="images/photos/nrel.png" alt="NREL Logo" />
+          </div>
         <div class="cu-campus-info col-lg-3 col-md-3 col-sm-4 col-xs-12 vertical-center">
           <img src="images/be-boulder-white.png" alt="Be Boulder." />
           <p>

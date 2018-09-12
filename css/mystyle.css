@@ -40,3 +40,29 @@
 .cu-campus-info {
   margin-bottom: 0px !important; /* overwrite default CU style */
 }
+
+.former-column {
+  float: left;
+  padding: 0px;
+}
+
+.former-left {
+  text-align: right;
+  font-weight: bold;
+  width: 50%;
+  padding-right: 40px;
+}
+
+.former-right {
+  font-style: italic;
+  text-align: left;
+  width: 50%;
+  padding-left: 40px;
+}
+
+.former-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 20px;
+}
