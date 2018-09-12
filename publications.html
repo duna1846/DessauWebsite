@@ -39,7 +39,7 @@
           <form class="cu-search-form hidden-xs" action="http://www.colorado.edu/gsearch" method="get">
             <div class="form-group">
               <label for="searchInput" class="sr-only">Search</label>
-              <input type="text" class="form-control search-input" placeholder="Search" name="q" />
+              <input id="searchInput" type="text" class="form-control search-input" placeholder="Search" name="q" />
               <input type="hidden" value="PUT YOUR URL HERE" name="site_url" />
               <button type="submit" class="sr-only sr-only-focusable">Submit</button>
             </div>
@@ -59,16 +59,16 @@
           </button>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <form class="cu-search-form hidden-sm hidden-md hidden-lg" action="http://www.colorado.edu/gsearch" method="get">
-              <div class="form-group">
-                <label for="searchInput" class="sr-only">Search</label>
-                <input type="text" class="form-control search-input" placeholder="Search" name="q" />
-                <input type="hidden" value="PUT YOUR URL HERE" name="site_url" />
-                <button type="submit" class="sr-only sr-only-focusable">Submit</button>
-              </div>
-            </form>
+          <!--<form class="cu-search-form hidden-sm hidden-md hidden-lg" action="http://www.colorado.edu/gsearch" method="get">
+            <div class="form-group">
+              <label for="searchInput" class="sr-only">Search</label>
+              <input type="text" class="form-control search-input" placeholder="Search" name="q" />
+              <input type="hidden" value="PUT YOUR URL HERE" name="site_url" />
+              <button type="submit" class="sr-only sr-only-focusable">Submit</button>
+            </div>
+          </form>-->
           <ul class="nav navbar-nav">
-            <li class="active">
+            <li>
               <a href="index.html">
                 <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                 <span class="sr-only sr-only-focusable">Home</span>
@@ -77,14 +77,13 @@
             <li>
               <a href="research.html">Research</a>
             </li>
-            <li>
+            <li class="active">
               <a href="publications.html">Publications</a>
             </li>
             <li>
               <a href="members.html">Members</a>
             </li>
           </ul>
-
         </div>
         <!--/.nav-collapse -->
       </nav>
@@ -228,8 +227,7 @@
                 effect in optimally doped Bi2Sr2CaCu2O8+δ studied by low-energy ARPES Physica C: Superconductivity, Volume
                 470, S134-S136 (2010) (DOE, HISOR)</p>
               <p>N. C. Plumb, J. D. Koralek, J. F. Douglas, T. J. Reber, Z. Sun, Y. Aiura, K. Oka, H. Eisaki, and D. S. Dessau
-                “Low-energy (
-                < 10 meV) feature in the nodal electron self-energy and strong temperature dependence of the Fermi velocity in Bi2Sr2CaCu2O8+d”
+                “Low-energy (10 meV) feature in the nodal electron self-energy and strong temperature dependence of the Fermi velocity in Bi2Sr2CaCu2O8+d”
                   arXiv:0903.4900 Phys. Rev. Lett. 105, 046402 (2010)</p>
             </div>
           </div>
