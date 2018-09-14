@@ -66,3 +66,11 @@
   clear: both;
   padding-bottom: 20px;
 }
+
+#sidebar.affix {
+  top: 20px;
+}
+
+#sidebar.affix-bottom {
+  bottom: 190px;
+}
