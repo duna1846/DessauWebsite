@@ -67,6 +67,10 @@
   padding-bottom: 20px;
 }
 
+ul.cu-nav-sub a {
+	padding: 4px;
+}
+
 #sidebar.affix {
   top: 20px;
 }
