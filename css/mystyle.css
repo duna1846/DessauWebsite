@@ -1,3 +1,22 @@
+.contactcard li {
+	display: block;
+	height: 24px;
+}
+
+.contactcard a, .contactcard p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.contactcard img {
+	display: inline-block;
+	float: left;
+	clear: left;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
 .contactcard {
 	list-style-type: none;
 	padding-left: 15px;
