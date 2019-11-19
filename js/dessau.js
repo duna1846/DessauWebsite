@@ -4,4 +4,3 @@ $('#sidebar').attr('data-offset-top', Math.round($('#navbar').offset().top + $('
 $(window).scroll(function () {
   $('#sidebar').width($('#sidebar-container').width());
 });
-
