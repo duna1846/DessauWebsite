@@ -52,6 +52,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553287676274" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -74,7 +75,7 @@
       <workItem from="1590367908752" duration="2080000" />
       <workItem from="1590435812651" duration="7810000" />
       <workItem from="1590464411050" duration="615000" />
-      <workItem from="1590606373301" duration="3608000" />
+      <workItem from="1590606373301" duration="4092000" />
     </task>
     <servers />
   </component>
@@ -98,5 +99,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1080.1880@0.0.2560.1400" timestamp="1590362736859" />
+    <state x="728" y="518" key="SettingsEditor" timestamp="1590624386990">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="728" y="518" key="SettingsEditor/0.0.2560.1400/2560.0.1080.1880@0.0.2560.1400" timestamp="1590624386990" />
   </component>
 </project>
