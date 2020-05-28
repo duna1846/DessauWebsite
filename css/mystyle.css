@@ -86,6 +86,16 @@
   padding-bottom: 20px;
 }
 
+table#affiliates {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td#logo {
+  vertical-align: middle;
+  padding: 16px;
+}
+
 ul.cu-nav-sub a {
 	padding: 4px;
 }

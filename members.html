@@ -29,41 +29,40 @@
 </head>
 
 <body>
-<div class="cu-page-top">
-  <div class="container">
-    <!-- Branding -->
-    <div class="cu-branding row">
-      <div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <a href="#">
-          <img src="images/banner_final.png" alt="Department of Physics"/>
-        </a>
+  <div class="cu-page-top">
+    <div class="container">
+      <!-- Branding -->
+      <div class="cu-branding row">
+        <div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <a href="#">
+            <img src="images/banner_final.png" alt="Department of Physics" />
+          </a>
+        </div>
+        <div class="cu-search col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+          <form class="cu-search-form hidden-xs" action="http://www.colorado.edu/gsearch" method="get">
+            <div class="form-group">
+              <label for="searchInput" class="sr-only">Search</label>
+              <input id="searchInput" type="text" class="form-control search-input" placeholder="Search" name="q" />
+              <input type="hidden" value="PUT YOUR URL HERE" name="site_url" />
+              <button type="submit" class="sr-only sr-only-focusable">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="cu-search col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
-        <form class="cu-search-form hidden-xs" action="http://www.colorado.edu/gsearch" method="get">
-          <div class="form-group">
-            <label for="searchInput" class="sr-only">Search</label>
-            <input id="searchInput" type="text" class="form-control search-input" placeholder="Search" name="q"/>
-            <input type="hidden" value="PUT YOUR URL HERE" name="site_url"/>
-            <button type="submit" class="sr-only sr-only-focusable">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <!-- /Branding -->
-    <!-- Main Navigation -->
-    <nav class="navbar navbar-inverse">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                aria-expanded="false"
-                aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <!--<form class="cu-search-form hidden-sm hidden-md hidden-lg" action="http://www.colorado.edu/gsearch" method="get">
+      <!-- /Branding -->
+      <!-- Main Navigation -->
+      <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <!--<form class="cu-search-form hidden-sm hidden-md hidden-lg" action="http://www.colorado.edu/gsearch" method="get">
             <div class="form-group">
               <label for="searchInput" class="sr-only">Search</label>
               <input type="text" class="form-control search-input" placeholder="Search" name="q" />
@@ -71,623 +70,633 @@
               <button type="submit" class="sr-only sr-only-focusable">Submit</button>
             </div>
           </form>-->
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="index.html">
-              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-              <span class="sr-only sr-only-focusable">Home</span>
-            </a>
-          </li>
-          <li>
-            <a href="research.html">Research</a>
-          </li>
-          <li>
-            <a href="publications.html">Publications</a>
-          </li>
-          <li class="active">
-            <a href="members.html">Members</a>
-          </li>
-          <li>
-            <a href="affiliates.html">Affiliations</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
-        </ul>
-
-      </div>
-      <!--/.nav-collapse -->
-    </nav>
-    <!--/Main Navigation -->
-  </div>
-
-
-  <div class="container">
-    <div class="content row">
-      <div class="main col-lg-9 col-md-9 col-sm-8 col-xs-12">
-        <h1>Group Members</h1>
-        <h2 id="Principal">Principal Investigator</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Dan">Daniel Dessau</h3>
-            <p class="interests">Experimental Condensed Matter Physics - Advanced Spectroscopies</p>
-            <a href="DessauCV-2020.doc"><h4>Curriculum Vitae</h4></a>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;ebo/efttbvAdpmpsbep/fev');">dan [dot] dessau [at]
-                  colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics F627</p>
-              </li>
-              <li>
-                <img class="contacticon" alt="Phone" src="images/ic_phone_black_24dp_1x.png"/>(303) 492-1607
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/Dessau-photo.png" alt="Daniel Dessau"/>
-          </div>
-        </div>
-        <h2 id="GuestScientist">Guest Scientist</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Jerry">Gerald B. Arnold</h3>
-            <p class="interests">Theoretical Condensed Matter Physics</p>
-            <p>Gerald Arnold is an Emeritus Professor of theoretical condensed matter physics at the University of Notre
-              Dame.
-              He is also an Adjunct Professor of Physics at the University of Colorado, Boulder. His primary work is on
-              strong coupling theory
-              of superconductivity and the superconducting proximity effect.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;hcbsopme57Ahnbjm/dpn');">gbarnold46 [at] gmail [dot]
-                  com</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G229</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/Jerry.JPG" alt="Gerald Arnold"/>
-          </div>
-        </div>
-        <h2 id="SrAssistant">Sr. Professional Research Assistant</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Justin">Justin Griffith</h3>
-            <p class="interests">Ultra high vacuum, precision machining, mechanics, and electronics</p>
-            <p>Justin graduated from CU Boulder with a B.S. in Engineering Physics. His specialties are UHV, XHV and
-              cryogenic
-              design, precision fabrication and machining, and scientific device development. He enjoys hiking, graphic
-              art, home updating, and playing guitar, drums, and fiddle.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;kvtujo/hsjggjuiAdpmpsbep/fev');">justin [dot] griffith
-                  [at] colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G227</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/justin2.jpg" alt="Justin Griffith"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <h2 id="Assistant">Professional Research Assistant</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Cameron">Cameron Dotts</h3>
-            <p class="interests">Electronics, Instrumentation Development</p>
-            <p>Cameron has a B.S. in Engineering Physics with a minor in Electrical Engineering from CU Boulder. He has
-              experience
-              building physics demonstrations for the Physics Learning Labs in the Physics department at CU. He has also
-              studied Plasma Physics and Optics. Cameron is a tinkerer and an artist at heart and spends his free time
-              designing, building, and testing circuits. He enjoys gaming culture and making movie references. </p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;dbnfspo/epuutAdpmpsbep/fev');">cameron [dot] dotts [at]
-                  colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G227</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src=images/photos/cameron.JPG alt="Cameron Dotts"/>
-          </div>
-        </div>
-        <h2 id="Graduate">Graduate Research Assistants</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Kyle">Kyle Gordon</h3>
-            <p class="interests">Topological Quantum Materials and Time Resolved ARPES</p>
-            <p>Kyle graduated from University of Michigan in 2015 with a degree in physics, math, and electrical
-              engineering.
-              Kyle's hobbies include climbing, running, and playing/making video games.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;lzmf/o/hpsepoAdpmpsbep/fev');">kyle [dot] n [dot]
-                  gordon [at] colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G229</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/kyle.jpg" alt="Kyle Gordon"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Dushyant">Dushyant Narayan</h3>
-            <p class="interests">Device physics and ARPES on Strongly Correlated Materials</p>
-            <p>Dushyant graduated from The University of Texas at Dallas in 2014 with a B.S. in physics minoring in
-              computer
-              science. He is involved in efforts to develop novel device technologies using a variety of cutting edge
-              spectroscopic
-              techniques. He also studies quantum materials hosting interesting phases such as electronic nematicity.
-              Dushyant enjoys tennis, working on his car, and tinkering.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;evtizbou/obsbzboAdpmpsbep/fev');">dushyant [dot]
-                  narayan [at] colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G229</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/dushyant.jpg" alt="Dushyant Narayan"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Bryan">Bryan Berggren</h3>
-            <p class="interests">Ultrafast Optics and ARPES on Strongly Correlated Materials</p>
-            <p>Bryan was born in Boise, Idaho and graduated from Santa Clara University in 2016 with a B.S. in physics.
-              Outside
-              of science, Bryan also likes hiking, climbing, snowboarding, and playing guitar.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;cszbo/cfshhsfoAdpmpsbep/fev');">bryan [dot] berggren
-                  [at] colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G229</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/bryan.jpg" alt="Bryan Berggren"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Garrison">Garrison Linn</h3>
-            <p class="interests">Ultrafast Optics and ARPES on Strongly Correlated Materials</p>
-            <p>Garrison is the fourth of five sons. It was his eldest brother, William, that first introduced him to
-              Quantum
-              Mechanics in the summer before college. This set Garrison on a course to complete a B.S. in physics at
-              Birmingham-Southern
-              College followed by an M.S. in physics at the University of Alabama at Birmingham. His master's research
-              was on terahertz time-domain spectroscopy of 2D electron gases in high magnetic fields in David Hilton's
-              group. He joined Dan Dessau's group in 2018. Garrison loves snowboarding, mountain biking, rock climbing,
-              scuba diving, and learning new things.
-            </p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;hbssjtpo/mjooAdpmpsbep/fev');">garrison [dot] linn [at]
-                  colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G221</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src=images/photos/garrison.jpeg alt="Garrison Linn"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Peipei">Peipei Hao</h3>
-            <p class="interests">Organic Materials Synthesis, ARPES on Strongly Correlated Materials</p>
-            <p>Peipei graduated from Southeast University (China) in 2017, with a bachelor's degree in physics, and
-              joined
-              Dan's group in the summer of 2018. She is currently working on an organic superconductors project
-              (terphenyl),
-              and is also interested in cuprate superconductors. Peipei's hobbies include hiking, linguistics,
-              calligraphy,
-              and music. </p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;qfjqfj/ibpAdpmpsbep/fev');">peipei [dot] hao [at]
-                  colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G221</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/peipei.jpg" alt="Peipei Hao"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Nathaniel">Nathaniel Speiser</h3>
-            <p class="interests">Scanning Squid on Tip</p>
-            <p>Nathaniel graduated from Northwestern University in 2018 with a B.A. in physics. He currently works on
-              fabricating and imaging devices made from novel superconductors. Outside of work, Nathaniel enjoys
-              cooking, skiing, and gaming. </p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;obuibojfm/tqfjtfsAdpmpsbep/fev');">nathaniel [dot]
-                  speiser [at] colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G229</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/nathaniel.jpg" alt="Nathaniel Speiser"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Aritra">Aritra Mazumder</h3>
-            <p class="interests">Scanning Squid on Tip</p>
-            <p>Aritra is from West Bengal, India. He graduated from IISER Kolkata in 2019 with a BS-MS in Physics.
-              Currently working on the development of
-              SQUID on Tip for imaging vortices in Super-Conductors. He loves cooking and football (Soccer) though his
-              enthusiasm is far bigger than his
-              abilities, and going on mildly challenging hikes.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;bsjusb/nb{vnefsAdpmpsbep/fev');">aritra [dot] mazumder
-                  [at] colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane Physics G221</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/photos/aritra.jpg" alt="Aritra Mazumder"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="vspace"></div>
-        <h2 id="Undergraduate">Undergraduate Research Assistants</h2>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Matthew">Matthew Teta</h3>
-            <p class="interests">Automation and Control Hardware, Embedded Software</p>
-            <p>Matthew Teta is an undergraduate at the University of Colorado at Boulder studying electrical and
-              computer engineering. His lifelong passion for technology has manifest through contributions to a FIRST
-              robotics team and various other hardware/programming projects. In the future, he hopes to pursue analog
-              electronics and quantum computing. Outside of the office, Matthew enjoys rock climbing, diving, and
-              DJing.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;nbuuifx/ufubAdpmpsbep/fev');">matthew [dot] teta [at]
-                  colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane G235</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src=images/photos/matthew.jpg alt="Matthew Teta"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Thomas">Thomas Balcom</h3>
-            <p class="interests">Scanning Squid on Tip</p>
-            <p>Thomas graduated from Baylor University in 2014 with a B.A. in Film but returned to academia in 2018 to
-              pursue his passion for physics. He works as a research assistant on the Focused Ion Beam (FIB) and on the
-              development of SQUID on Tip for imaging vortices in Super-Conductors. Outside of class, he enjoys
-              backpacking,
-              landscape photography, and indoor soccer.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;uipnbt/cbmdpnAdpmpsbep/fev');">thomas [dot] balcom [at]
-                  colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane G221</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src=images/photos/thomas.jpg alt="Thomas Balcom"/>
-          </div>
-        </div>
-        <div class="vspace"></div>
-        <div class="row">
-          <div class="col-sm-8">
-            <h3 id="Jian">Jian He</h3>
-            <p class="interests">Pulsed Laser Deposition</p>
-            <p>Jian He is an undergraduate in engineering physics at the University of Colorado at Boulder. He is
-              mainly working on the Pulsed Laser Deposition (PLD) project. His hobbies include soccer, traveling, and
-              reading.</p>
-            <ul class="contactcard">
-              <li>
-                <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png"/>
-                <a href="javascript:linkTo_UnCryptMailto('nbjmup;kjbo/if.2Adpmpsbep/fev');">jian [dot] he-1 [at]
-                  colorado [dot] edu</a>
-              </li>
-              <li>
-                <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png"/>
-                <p>Duane C228</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-4">
-            <img src=images/photos/jianhe.jpg alt="Jian He"/>
-          </div>
-        </div>
-        <h2 id="Former">Former Members</h2>
-        <table class="table table-hover">
-          <tr>
-            <td>Haoxiang Li</td>
-            <td>Oak Ridge National Laboratory</td>
-          </tr>
-          <tr>
-            <td>Xiaoqing Zhou</td>
-            <td>Wayfair Inc.</td>
-          </tr>
-          <tr>
-            <td>Jennifer Reed</td>
-            <td>Air Force Research Lab</td>
-          </tr>
-          <tr>
-            <td>Wes Erbsen</td>
-            <td>Air Force Research Lab</td>
-          </tr>
-          <tr>
-            <td>Stephen Parham</td>
-            <td>Intel</td>
-          </tr>
-          <tr>
-            <td>Thomas Nummy</td>
-            <td>Unsupervised Inc.</td>
-          </tr>
-          <tr>
-            <td>Justin Waugh</td>
-            <td>Unsupervised Inc.</td>
-          </tr>
-          <tr>
-            <td>Yue "Scott" Cao</td>
-            <td>Argonne National Lab, Advanced Photon Source (APS)</td>
-          </tr>
-          <tr>
-            <td>Sunita Kannan</td>
-            <td>Head of Digital and AI Strategy - ASEAN - Accenture AI</td>
-          </tr>
-          <tr>
-            <td>Qiang (Quinn) Wang</td>
-            <td>West Virginia University</td>
-          </tr>
-          <tr>
-            <td>Alexei Fedorov</td>
-            <td>Lawrence Berkeley National Laboratory (LBNL)</td>
-          </tr>
-          <tr>
-            <td>Nick Plumb</td>
-            <td>Swiss Light Source (SLS)</td>
-          </tr>
-          <tr>
-            <td>Ted Reber</td>
-            <td>University of Georgia</td>
-          </tr>
-          <tr>
-            <td>Zhe (Joe) Sun</td>
-            <td>University of Science and Technology of China (USTC)</td>
-          </tr>
-          <tr>
-            <td>Jake Koralek</td>
-            <td>Stanford Linear Accelerator (SLAC)</td>
-          </tr>
-          <tr>
-            <td>Fraser Douglas</td>
-            <td>Data Scientist at Deloitte</td>
-          </tr>
-          <tr>
-            <td>Yi-De Chuang</td>
-            <td>Lawrence Berkeley National Laboratory (LBNL)</td>
-          </tr>
-          <tr>
-            <td>Adam Gromko</td>
-            <td>Executive Director at IHS Markit</td>
-          </tr>
-          <tr>
-            <td>Phil Villella</td>
-            <td>Co-Founder of LogRhythm</td>
-          </tr>
-        </table>
-      </div>
-      <div id="sidebar-container" class="col-lg-3 col-md-3 col-sm-4 col-xs-12 hidden-xs">
-        <div id="sidebar">
-          <ul class="cu-nav-sub">
-            <li role="presentation">
-              <a href="#Principal">Principal Investigator</a>
-              <ul>
-                <li role="presentation">
-                  <a href="#Dan">Daniel Dessau</a>
-                </li>
-              </ul>
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                <span class="sr-only sr-only-focusable">Home</span>
+              </a>
             </li>
-            <li role="presentation">
-              <a href="#GuestScientist">Guest Scientist</a>
-              <ul>
-                <li role="presentation">
-                  <a href="#Jerry">Gerald B. Arnold</a>
-                </li>
-              </ul>
+            <li>
+              <a href="research.html">Research</a>
             </li>
-            <li role="presentation">
-              <a href="#SrAssistant">Sr. Professional Research Assistant</a>
-              <ul>
-                <li role="presentation">
-                  <a href="#Justin">Justin Griffith</a>
-                </li>
-              </ul>
+            <li>
+              <a href="publications.html">Publications</a>
             </li>
-            <li role="presentation">
-              <a href="#Assistant">Professional Research Assistant</a>
-              <ul>
-                <li role="presentation">
-                  <a href="#Cameron">Cameron Dotts</a>
-                </li>
-              </ul>
+            <li class="active">
+              <a href="members.html">Members</a>
             </li>
-            <li role="presentation">
-              <a href="#Graduate">Graduate Students</a>
-              <ul>
-                <li role="presentation">
-                  <a href="#Kyle">Kyle Gordon</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Dushyant">Dushyant Narayan</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Bryan">Bryan Berggren</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Garrison">Garrison Linn</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Peipei">Peipei Hao</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Nathaniel">Nathaniel Speiser</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Aritra">Aritra Mazumder</a>
-                </li>
-              </ul>
+            <li>
+              <a href="affiliates.html">Affiliations</a>
             </li>
-            <li role="presentation">
-              <a href="#Undergraduate">Undergraduate Students</a>
-              <ul>
-                <li role="presentation">
-                  <a href="#Matthew">Matthew Teta</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Thomas">Thomas Balcom</a>
-                </li>
-                <li role="presentation">
-                  <a href="#Jian">Jian He</a>
-                </li>
-              </ul>
-            </li>
-            <li role="presentation">
-              <a href="#Former">Former Members</a>
+            <li>
+              <a href="contact.html">Contact Us</a>
             </li>
           </ul>
+
         </div>
-      </div>
+        <!--/.nav-collapse -->
+      </nav>
+      <!--/Main Navigation -->
     </div>
 
 
-  </div>
-  <!-- /.container -->
-</div>
+    <div class="container">
+      <div class="content row">
+        <div class="main col-lg-9 col-md-9 col-sm-8 col-xs-12">
+          <h1>Group Members</h1>
 
-<!-- FOOTER -->
-<div class="cu-footer">
-  <div class="container">
-    <div class="row footer">
-      <div class="cu-contact-info col-lg-3 col-md-3 col-sm-3 col-xs-3 vertical-center">
-        <p>Lab Address Information</p>
-        <p>PI Office: Duane Physics F625</p>
-        <p>Lab Locations: Duane G229, G235, C228</p>
+          <h2 id="Principal">Principal Investigator</h2>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Dan">Daniel Dessau</h3>
+              <p class="interests">Experimental Condensed Matter Physics - Advanced Spectroscopies</p>
+              <a href="DessauCV-2020.doc">
+                <h4>Curriculum Vitae</h4>
+              </a>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;ebo/efttbvAdpmpsbep/fev');">dan [dot] dessau [at]
+                    colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics F627</p>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Phone" src="images/ic_phone_black_24dp_1x.png" />(303) 492-1607
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/Dessau-photo.png" alt="Daniel Dessau" />
+            </div>
+          </div>
+
+          <h2 id="GuestScientist">Guest Scientist</h2>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Jerry">Gerald B. Arnold</h3>
+              <p class="interests">Theoretical Condensed Matter Physics</p>
+              <p>Gerald Arnold is an Emeritus Professor of theoretical condensed matter physics at the University of
+                Notre Dame. He is also an Adjunct Professor of Physics at the University of Colorado, Boulder. His primary work is
+                on strong coupling theory of superconductivity and the superconducting proximity effect.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;hcbsopme57Ahnbjm/dpn');">gbarnold46 [at] gmail [dot]
+                    com</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G229</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/Jerry.JPG" alt="Gerald Arnold" />
+            </div>
+          </div>
+
+          <h2 id="SrAssistant">Sr. Professional Research Assistant</h2>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Justin">Justin Griffith</h3>
+              <p class="interests">Ultra high vacuum, precision machining, mechanics, and electronics</p>
+              <p>Justin graduated from CU Boulder with a B.S. in Engineering Physics. His specialties are UHV, XHV and
+                cryogenic design, precision fabrication and machining, and scientific device development. He enjoys hiking,
+                graphic art, home updating, and playing guitar, drums, and fiddle.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;kvtujo/hsjggjuiAdpmpsbep/fev');">justin [dot]
+                    griffith
+                    [at] colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G227</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/justin2.jpg" alt="Justin Griffith" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <h2 id="Assistant">Professional Research Assistant</h2>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Cameron">Cameron Dotts</h3>
+              <p class="interests">Electronics, Instrumentation Development</p>
+              <p>Cameron has a B.S. in Engineering Physics with a minor in Electrical Engineering from CU Boulder. He
+                has experience building physics demonstrations for the Physics Learning Labs in the Physics department at CU. He has
+                also studied Plasma Physics and Optics. Cameron is a tinkerer and an artist at heart and spends his free time
+                designing, building, and testing circuits. He enjoys gaming culture and making movie references. </p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;dbnfspo/epuutAdpmpsbep/fev');">cameron [dot] dotts
+                    [at]
+                    colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G227</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src=images/photos/cameron.JPG alt="Cameron Dotts" />
+            </div>
+          </div>
+
+          <h2 id="Graduate">Graduate Research Assistants</h2>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Kyle">Kyle Gordon</h3>
+              <p class="interests">Topological Quantum Materials and Time Resolved ARPES</p>
+              <p>Kyle graduated from University of Michigan in 2015 with a degree in physics, math, and electrical
+                engineering. Kyle's hobbies include climbing, running, and playing/making video games.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;lzmf/o/hpsepoAdpmpsbep/fev');">kyle [dot] n [dot]
+                    gordon [at] colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G229</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/kyle.jpg" alt="Kyle Gordon" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Dushyant">Dushyant Narayan</h3>
+              <p class="interests">Device physics and ARPES on Strongly Correlated Materials</p>
+              <p>Dushyant graduated from The University of Texas at Dallas in 2014 with a B.S. in physics minoring in
+                computer science. He is involved in efforts to develop novel device technologies using a variety of cutting edge
+                spectroscopic techniques. He also studies quantum materials hosting interesting phases such as electronic nematicity.
+                Dushyant enjoys tennis, working on his car, and tinkering.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;evtizbou/obsbzboAdpmpsbep/fev');">dushyant [dot]
+                    narayan [at] colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G229</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/dushyant.jpg" alt="Dushyant Narayan" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Bryan">Bryan Berggren</h3>
+              <p class="interests">Ultrafast Optics and ARPES on Strongly Correlated Materials</p>
+              <p>Bryan was born in Boise, Idaho and graduated from Santa Clara University in 2016 with a B.S. in
+                physics. Outside of science, Bryan also likes hiking, climbing, snowboarding, and playing guitar.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;cszbo/cfshhsfoAdpmpsbep/fev');">bryan [dot] berggren
+                    [at] colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G229</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/bryan.jpg" alt="Bryan Berggren" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Garrison">Garrison Linn</h3>
+              <p class="interests">Ultrafast Optics and ARPES on Strongly Correlated Materials</p>
+              <p>Garrison is the fourth of five sons. It was his eldest brother, William, that first introduced him to
+                Quantum Mechanics in the summer before college. This set Garrison on a course to complete a B.S. in physics at
+                Birmingham-Southern College followed by an M.S. in physics at the University of Alabama at Birmingham. His master's research
+                was on terahertz time-domain spectroscopy of 2D electron gases in high magnetic fields in David Hilton's
+                group. He joined Dan Dessau's group in 2018. Garrison loves snowboarding, mountain biking, rock
+                climbing, scuba diving, and learning new things.
+              </p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;hbssjtpo/mjooAdpmpsbep/fev');">garrison [dot] linn
+                    [at]
+                    colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G221</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src=images/photos/garrison.jpeg alt="Garrison Linn" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Peipei">Peipei Hao</h3>
+              <p class="interests">Organic Materials Synthesis, ARPES on Strongly Correlated Materials</p>
+              <p>Peipei graduated from Southeast University (China) in 2017, with a bachelor's degree in physics, and
+                joined Dan's group in the summer of 2018. She is currently working on an organic superconductors project
+                (terphenyl), and is also interested in cuprate superconductors. Peipei's hobbies include hiking, linguistics,
+                calligraphy, and music. </p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;qfjqfj/ibpAdpmpsbep/fev');">peipei [dot] hao [at]
+                    colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G221</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/peipei.jpg" alt="Peipei Hao" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Nathaniel">Nathaniel Speiser</h3>
+              <p class="interests">Scanning Squid on Tip</p>
+              <p>Nathaniel graduated from Northwestern University in 2018 with a B.A. in physics. He currently works on
+                fabricating and imaging devices made from novel superconductors. Outside of work, Nathaniel enjoys
+                cooking, skiing, and gaming. </p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;obuibojfm/tqfjtfsAdpmpsbep/fev');">nathaniel [dot]
+                    speiser [at] colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G229</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/nathaniel.jpg" alt="Nathaniel Speiser" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Aritra">Aritra Mazumder</h3>
+              <p class="interests">Scanning Squid on Tip</p>
+              <p>Aritra is from West Bengal, India. He graduated from IISER Kolkata in 2019 with a BS-MS in Physics.
+                Currently working on the development of SQUID on Tip for imaging vortices in Super-Conductors. He loves cooking and football (Soccer) though his
+                enthusiasm is far bigger than his abilities, and going on mildly challenging hikes.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;bsjusb/nb{vnefsAdpmpsbep/fev');">aritra [dot]
+                    mazumder
+                    [at] colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane Physics G221</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images/photos/aritra.jpg" alt="Aritra Mazumder" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <h2 id="Undergraduate">Undergraduate Research Assistants</h2>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Matthew">Matthew Teta</h3>
+              <p class="interests">Automation and Control Hardware, Embedded Software</p>
+              <p>Matthew Teta is an undergraduate at the University of Colorado at Boulder studying electrical and
+                computer engineering. His lifelong passion for technology has manifest through contributions to a FIRST
+                robotics team and various other hardware/programming projects. In the future, he hopes to pursue analog
+                electronics and quantum computing. Outside of the office, Matthew enjoys rock climbing, diving, and
+                DJing.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;nbuuifx/ufubAdpmpsbep/fev');">matthew [dot] teta [at]
+                    colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane G235</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src=images/photos/matthew.jpg alt="Matthew Teta" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Thomas">Thomas Balcom</h3>
+              <p class="interests">Scanning Squid on Tip</p>
+              <p>Thomas graduated from Baylor University in 2014 with a B.A. in Film but returned to academia in 2018 to
+                pursue his passion for physics. He works as a research assistant on the Focused Ion Beam (FIB) and on
+                the development of SQUID on Tip for imaging vortices in Super-Conductors. Outside of class, he enjoys
+                backpacking, landscape photography, and indoor soccer.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;uipnbt/cbmdpnAdpmpsbep/fev');">thomas [dot] balcom
+                    [at]
+                    colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane G221</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src=images/photos/thomas.jpg alt="Thomas Balcom" />
+            </div>
+          </div>
+          <div class="vspace"></div>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <h3 id="Jian">Jian He</h3>
+              <p class="interests">Pulsed Laser Deposition</p>
+              <p>Jian He is an undergraduate in engineering physics at the University of Colorado at Boulder. He is
+                mainly working on the Pulsed Laser Deposition (PLD) project. His hobbies include soccer, traveling, and
+                reading.</p>
+              <ul class="contactcard">
+                <li>
+                  <img class="contacticon" alt="Email" src="images/ic_email_black_24dp_1x.png" />
+                  <a href="javascript:linkTo_UnCryptMailto('nbjmup;kjbo/if.2Adpmpsbep/fev');">jian [dot] he-1 [at]
+                    colorado [dot] edu</a>
+                </li>
+                <li>
+                  <img class="contacticon" alt="Office" src="images/ic_business_black_24dp_1x.png" />
+                  <p>Duane C228</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src=images/photos/jianhe.jpg alt="Jian He" />
+            </div>
+          </div>
+
+          <h2 id="Former">Former Members</h2>
+          
+          <table class="table table-hover">
+            <tr>
+              <td>Haoxiang Li</td>
+              <td>Oak Ridge National Laboratory</td>
+            </tr>
+            <tr>
+              <td>Xiaoqing Zhou</td>
+              <td>Wayfair Inc.</td>
+            </tr>
+            <tr>
+              <td>Jennifer Reed</td>
+              <td>Air Force Research Lab</td>
+            </tr>
+            <tr>
+              <td>Wes Erbsen</td>
+              <td>Air Force Research Lab</td>
+            </tr>
+            <tr>
+              <td>Stephen Parham</td>
+              <td>Intel</td>
+            </tr>
+            <tr>
+              <td>Thomas Nummy</td>
+              <td>Unsupervised Inc.</td>
+            </tr>
+            <tr>
+              <td>Justin Waugh</td>
+              <td>Unsupervised Inc.</td>
+            </tr>
+            <tr>
+              <td>Yue "Scott" Cao</td>
+              <td>Argonne National Lab, Advanced Photon Source (APS)</td>
+            </tr>
+            <tr>
+              <td>Sunita Kannan</td>
+              <td>Head of Digital and AI Strategy - ASEAN - Accenture AI</td>
+            </tr>
+            <tr>
+              <td>Qiang (Quinn) Wang</td>
+              <td>West Virginia University</td>
+            </tr>
+            <tr>
+              <td>Alexei Fedorov</td>
+              <td>Lawrence Berkeley National Laboratory (LBNL)</td>
+            </tr>
+            <tr>
+              <td>Nick Plumb</td>
+              <td>Swiss Light Source (SLS)</td>
+            </tr>
+            <tr>
+              <td>Ted Reber</td>
+              <td>University of Georgia</td>
+            </tr>
+            <tr>
+              <td>Zhe (Joe) Sun</td>
+              <td>University of Science and Technology of China (USTC)</td>
+            </tr>
+            <tr>
+              <td>Jake Koralek</td>
+              <td>Stanford Linear Accelerator (SLAC)</td>
+            </tr>
+            <tr>
+              <td>Fraser Douglas</td>
+              <td>Data Scientist at Deloitte</td>
+            </tr>
+            <tr>
+              <td>Yi-De Chuang</td>
+              <td>Lawrence Berkeley National Laboratory (LBNL)</td>
+            </tr>
+            <tr>
+              <td>Adam Gromko</td>
+              <td>Executive Director at IHS Markit</td>
+            </tr>
+            <tr>
+              <td>Phil Villella</td>
+              <td>Co-Founder of LogRhythm</td>
+            </tr>
+          </table>
+        </div>
+        <div id="sidebar-container" class="col-lg-3 col-md-3 col-sm-4 col-xs-12 hidden-xs">
+          <div id="sidebar">
+            <ul class="cu-nav-sub">
+              <li role="presentation">
+                <a href="#Principal">Principal Investigator</a>
+                <ul>
+                  <li role="presentation">
+                    <a href="#Dan">Daniel Dessau</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a href="#GuestScientist">Guest Scientist</a>
+                <ul>
+                  <li role="presentation">
+                    <a href="#Jerry">Gerald B. Arnold</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a href="#SrAssistant">Sr. Professional Research Assistant</a>
+                <ul>
+                  <li role="presentation">
+                    <a href="#Justin">Justin Griffith</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a href="#Assistant">Professional Research Assistant</a>
+                <ul>
+                  <li role="presentation">
+                    <a href="#Cameron">Cameron Dotts</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a href="#Graduate">Graduate Students</a>
+                <ul>
+                  <li role="presentation">
+                    <a href="#Kyle">Kyle Gordon</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Dushyant">Dushyant Narayan</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Bryan">Bryan Berggren</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Garrison">Garrison Linn</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Peipei">Peipei Hao</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Nathaniel">Nathaniel Speiser</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Aritra">Aritra Mazumder</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a href="#Undergraduate">Undergraduate Students</a>
+                <ul>
+                  <li role="presentation">
+                    <a href="#Matthew">Matthew Teta</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Thomas">Thomas Balcom</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#Jian">Jian He</a>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation">
+                <a href="#Former">Former Members</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
-        <a href="https://jila.colorado.edu/">
-          <img src="images/photos/jila.png" alt="JILA Logo"/>
-        </a>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
-        <a href="https://www.nist.gov/">
-          <img src="images/photos/nist.png" alt="NIST Logo"/>
-        </a>
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
-        <a href="https://www.nrel.gov/">
-          <img src="images/photos/nrel.png" alt="NREL Logo"/>
-        </a>
-      </div>
-      <div class="cu-campus-info col-lg-3 col-md-3 col-sm-4 col-xs-12 vertical-center">
-        <img src="images/be-boulder-white.png" alt="Be Boulder."/>
-        <p>
-          <strong>
-            <a href="http://www.colorado.edu">University of Colorado Boulder</a>
-          </strong>
-          <br>&copy; Regents of the University of Colorado
-          <br>
-          <span class="required-links">
+    </div>
+    <!-- /.container -->
+  </div>
+
+  <!-- FOOTER -->
+  <div class="cu-footer">
+    <div class="container">
+      <div class="row footer">
+        <div class="cu-contact-info col-lg-3 col-md-3 col-sm-3 col-xs-3 vertical-center">
+          <p>Lab Address Information</p>
+          <p>PI Office: Duane Physics F625</p>
+          <p>Lab Locations: Duane G229, G235, C228</p>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
+          <a href="https://jila.colorado.edu/">
+            <img src="images/photos/jila.png" alt="JILA Logo" />
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
+          <a href="https://www.nist.gov/">
+            <img src="images/photos/nist.png" alt="NIST Logo" />
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 vertical-center">
+          <a href="https://www.nrel.gov/">
+            <img src="images/photos/nrel.png" alt="NREL Logo" />
+          </a>
+        </div>
+        <div class="cu-campus-info col-lg-3 col-md-3 col-sm-4 col-xs-12 vertical-center">
+          <img src="images/be-boulder-white.png" alt="Be Boulder." />
+          <p>
+            <strong>
+              <a href="http://www.colorado.edu">University of Colorado Boulder</a>
+            </strong>
+            <br>&copy; Regents of the University of Colorado
+            <br>
+            <span class="required-links">
               <a href="http://www.colorado.edu/about/privacy-statement">Privacy</a> •
               <a href="http://www.colorado.edu/about/legal-trademarks">Legal &amp; Trademarks</a>
             </span>
-        </p>
+          </p>
 
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/cu-search.js"></script>
-<script src="js/dessau.js"></script>
-<!-- END FOOTER -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/cu-search.js"></script>
+  <script src="js/dessau.js"></script>
+  <!-- END FOOTER -->
 </body>
 
 </html>
